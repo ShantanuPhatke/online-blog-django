@@ -129,8 +129,13 @@ nav button {
 .site-form input,
 .site-form textarea {
   display: block;
-  margin: 20px 0 0px 0;
+  margin: 20px 0 20px 0;
   padding: 10px;
+}
+
+label[for="id_slug"],
+#id_slug {
+  display: none;
 }
 
 a.highlight {
