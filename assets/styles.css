@@ -133,9 +133,9 @@ nav button {
   padding: 10px;
 }
 
-label[for="id_slug"],
-#id_slug {
-  display: none;
+.site-form label[for="id_slug"],
+.site-form #id_slug {
+  display: none !important;
 }
 
 a.highlight {
